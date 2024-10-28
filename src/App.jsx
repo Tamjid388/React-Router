@@ -5,6 +5,7 @@ import DaisyNavbar from './Component/NAV/DaisyNAv'
 import Navbar from './Component/NAV/Navbar'
 import Priceoption from './Component/PriceOpiton/Priceoption'
 import Rechart from './Component/Rechart/Rechart'
+import Phones from './Component/Phones/Phones'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
  <Navbar></Navbar>
      <Priceoption></Priceoption>
      <Rechart></Rechart>
+     <Phones></Phones>
     </>
   )
 }
