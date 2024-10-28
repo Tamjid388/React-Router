@@ -1,25 +1,26 @@
 import { useState } from 'react'
 
 import './App.css'
+import DaisyNavbar from './Component/NAV/DaisyNAv'
+import Navbar from './Component/NAV/Navbar'
+import Priceoption from './Component/PriceOpiton/Priceoption'
+import Rechart from './Component/Rechart/Rechart'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
- <Header></Header>
-     
-   
+{/* <DaisyNavbar></DaisyNavbar> */}
+ <Navbar></Navbar>
+     <Priceoption></Priceoption>
+     <Rechart></Rechart>
     </>
   )
 }
 
 
-function Header(){
-  return(
-    <p className='btn'>aaaaa</p>
-  )
-}
+
 
 
 export default App
